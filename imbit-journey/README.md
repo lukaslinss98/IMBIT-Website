@@ -1,6 +1,6 @@
 # Development Env
 
-## Requisits:
+## Pre-Requisits:
 Git - version controle
 npm - package manager
 
