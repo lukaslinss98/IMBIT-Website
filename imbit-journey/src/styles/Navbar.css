@@ -7,19 +7,20 @@ nav {
 }
 
 .nav-logo {
-    height: 15vmin;
-    margin: 50px 50px 100px 50px;
+    height: 10vmin;
+    margin: 10px 50px 100px 50px;
 
 }
 .nav-list {
     list-style-type: none;
     font-weight: 600;
     text-underline-offset: 3px;
-    margin: 50px 50px 100px 50px;
+    margin: 10px 50px 50px 0px;
 }
 .nav-list > li {
     display: inline-block;
     padding: 10px 40px;
+    border-bottom: 3px #000000 solid;
 }
 
 .nav-button {
@@ -29,7 +30,7 @@ nav {
     border-radius: 25px;
     background-color: #EF6D58;
     border: none;
-    margin: 50px 50px 100px 50px;
+    margin: 10px 50px 100px 50px;
     height: 3em;
-    width: 7em;
+    width: 9em;
 }
