@@ -1,36 +1,50 @@
 nav {
     position: absolute;
+    top: 30px;
     display: flex;
+    font-family: 'Epilogue';
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     align-items: baseline;
 }
 
 .nav-logo {
     height: 10vmin;
     margin: 10px 50px 100px 50px;
-
+    align-self: center;
 }
 .nav-list {
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
     text-underline-offset: 3px;
     margin: 10px 50px 50px 0px;
 }
 .nav-list > li {
     display: inline-block;
-    padding: 10px 40px;
-    border-bottom: 3px #000000 solid;
+    color: #391400;
+    padding: 10px 50px;
+    border-bottom: 2px #000000 solid;
+}
+
+.nav-list > li:hover {
+    border-bottom: 2px #EF6D58 solid;
 }
 
 .nav-button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 14px;
     color: #FFFFFF;
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: #EF6D58;
     border: none;
-    margin: 10px 50px 100px 50px;
+    margin: 10px 50px 50px 50px;
     height: 3em;
     width: 9em;
+}
+
+.nav-button:hover {
+    border: 2px solid #28293E;
 }
