@@ -1,4 +1,3 @@
-import logo from './../images/logos/DHBW-Logo.svg.png';
 import './../styles/App.css';
 import Navbar from './Navbar';
 import TitlePage from './TitlePage';
