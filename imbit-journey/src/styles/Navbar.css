@@ -25,11 +25,12 @@ nav {
     display: inline-block;
     color: #391400;
     padding: 10px 50px;
-    border-bottom: 2px #000000 solid;
+    border-bottom: 3px #000000 solid;
 }
 
 .nav-list > li:hover {
-    border-bottom: 2px #EF6D58 solid;
+    border-bottom: 3px #EF6D58 solid;
+    cursor: pointer;
 }
 
 .nav-button {
@@ -46,4 +47,5 @@ nav {
 
 .nav-button:hover {
     border: 2px solid #28293E;
+    cursor: pointer;
 }

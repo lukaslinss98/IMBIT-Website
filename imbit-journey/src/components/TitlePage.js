@@ -1,4 +1,5 @@
 import './../styles/TitlePage.css'
+import down_arrow from './../images/icons/down-arrow.jpeg';
 
 const TitlePage = () => {
     return (
@@ -9,11 +10,15 @@ const TitlePage = () => {
                 Management <br /> 
                 for Business <br /> 
                 & IT</h1>
-                <h4 className="titlepage-headers-h4">   
-                Entdecke die IMBIT Journey: <br />
-                <br />
-                Wirtschaftsinformatik international <br />
-                gelebt & gelehrt</h4>
+                <span className="titlepage-headers-small">
+                    <h4 className="titlepage-headers-small-h4">   
+                    Entdecke die IMBIT Journey: <br />
+                    <br />
+                    Wirtschaftsinformatik international <br />
+                    gelebt & gelehrt</h4>
+                    <img src={down_arrow} alt=""></img>
+                </span>
+            
             </div>
             <div className='titlepage-shape'>
                 <div className="titlepage-shape-square"></div>

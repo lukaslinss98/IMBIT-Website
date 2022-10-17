@@ -1,0 +1,47 @@
+
+.statistics {
+    font-family: 'Epilogue';
+    border-radius: 6px;
+    width: 100%;
+    height: 176px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.statistics > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-style: solid;
+    border-color: #F3D1BF;     
+    width: 470px;
+    height: 176px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 40px 0px 20px 40px;
+
+}
+
+.statistics > div > p {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 0px 30px 40px;
+    opacity: 60%;
+}
+
+.statistics-box1 {
+    border-radius: 9px 0px 0px 9px;
+    border-right: 0px;
+}
+
+.statistics-box3 {
+    border-radius: 0px 9px 9px 0px;
+    border-left: 0px;
+}

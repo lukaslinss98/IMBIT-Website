@@ -1,0 +1,15 @@
+.divider-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-line {
+    width: 1500px;
+    height: 2px;
+    background: #6a7b84;
+    border-radius: 30%;
+}
