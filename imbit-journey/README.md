@@ -1,7 +1,7 @@
 # Development Env
 
 ## Pre-Requisits:
-Git - version controle
+Git - version controle  
 npm - package manager
 
 ## Folder Structure
