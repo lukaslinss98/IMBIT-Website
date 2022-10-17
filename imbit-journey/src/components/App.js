@@ -1,12 +1,11 @@
-import logo from './../images/DHBW-Logo.svg.png';
+import logo from './../images/logos/DHBW-Logo.svg.png';
 import './../styles/App.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Navbar />
     </div>
   );
 }

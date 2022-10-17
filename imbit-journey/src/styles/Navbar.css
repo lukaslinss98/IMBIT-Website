@@ -1,0 +1,35 @@
+nav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-logo {
+    height: 15vmin;
+    margin: 50px 50px 100px 50px;
+
+}
+.nav-list {
+    list-style-type: none;
+    font-weight: 600;
+    text-underline-offset: 3px;
+    margin: 50px 50px 100px 50px;
+}
+.nav-list > li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.nav-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    border-radius: 25px;
+    background-color: #EF6D58;
+    border: none;
+    margin: 50px 50px 100px 50px;
+    height: 3em;
+    width: 7em;
+}
