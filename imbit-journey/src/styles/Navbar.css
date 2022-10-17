@@ -1,5 +1,4 @@
 nav {
-    position: absolute;
     top: 30px;
     display: flex;
     font-family: 'Epilogue';
@@ -11,7 +10,7 @@ nav {
 
 .nav-logo {
     height: 10vmin;
-    margin: 10px 50px 100px 50px;
+    margin: 10px 50px 50px 50px;
     align-self: center;
 }
 .nav-list {
