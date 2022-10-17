@@ -1,3 +1,17 @@
+# Development Env
+
+## Requisits:
+Git - version controle
+npm - package manager
+
+# Run app locally
+
+app will be started on localhost:3000 by using the "start" script
+
+1. cd into the directory "imbit-journey"
+2. type "npm start" into the terminal
+3. if browser does not open automatically, enter "localhost:3000" in a browser window
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
