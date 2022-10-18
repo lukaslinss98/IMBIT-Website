@@ -5,15 +5,15 @@ main {
 .titlepage-headers {
     display: flex;
     flex-direction: column;
-    margin: 0px 50px 50px 40px
+    margin: 0px 3.5vw 3.5vw 2.7vw
 }
 
 .titlepage-headers-h1 {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 800;
-    font-size: 130px;
-    line-height: 140px;
+    font-size: 6.77vw;
+    line-height: 7.291vw;
     letter-spacing: -2px;
     text-align: left;
 }
@@ -25,15 +25,15 @@ main {
 }
 
 .titlepage-headers-small-h4 {
-    width: 470px;
-    height: 132px;
-    left: 85px;
-    top: 709px;
+    width: 32.6vw;
+    height: 9.16vw;
+    left: 5.9vw;
+    top: 49.2vw;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 32px;
+    font-size: 1.302vw;
+    line-height: 1.66vw;
     color: #391400;
     opacity: 80%;
 }
@@ -43,41 +43,42 @@ main {
     margin-right: 15px;
 }
 
-
-.titlepage-shape {
-    margin: 0px;
+@media only screen and (max-width: 1000px){
+    .titlepage-shape {
+        display: none;
+    }
 }
 
 .titlepage-shape-square {
     position: absolute;
-    top: 150px;
+    top: 7.8vw;
     z-index: 3;
     background-color: #EF6D58;
-    width: 780px;
-    height: 700px;
-    margin: 50px;
+    width: 40.62vw;
+    height: 36.45vw;
+    margin: 2.6vw;
 }
 
 .titlepage-shape-rect1 {
     position: absolute;
     z-index: 1;
-    top: 455px;
-    left: 1552px;
+    top: 23.69vw;
+    left: 82vw;
     background-color: #4C5C65;
     backdrop-filter: blur(2px);
-    width: 573px;
-    height: 1832.8px;
+    width: 29.84vw;
+    height: 95.45vw;
     transform: matrix(0.73, -0.69, 0.67, 0.73, 0, 0);
 }
 
 .titlepage-shape-rect2 {
     position: absolute;
     z-index: 2;
-    top: 150px;
-    left: 1920px;
+    top: 4vw;
+    left: 110.1vw;
     background-color: #697982;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 472px;
-    height: 1589.7px;
+    width: 24.58vw;
+    height: 110vw;
     transform: matrix(0.73, -0.69, 0.67, 0.73, 0, 0);
 }

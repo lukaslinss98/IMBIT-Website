@@ -15,17 +15,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     border-style: solid;
     border-color: #F3D1BF;     
-    width: 470px;
-    height: 176px;
+    width: 27.63vw;
+    height: 12.22vw;
 }
 
 h2 {
     font-weight: 800;
-    font-size: 40px;
-    margin: 40px 0px 20px 40px;
+    font-size: 2.7vw;
+    margin: 2.7vw 0px 1.38vw 2.7vw;
 
 }
 

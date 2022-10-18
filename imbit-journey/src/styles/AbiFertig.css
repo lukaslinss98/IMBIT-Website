@@ -2,36 +2,32 @@
     display: flex;
     font-family: 'Epilogue';
     justify-content: space-evenly;
-    margin: 100px 0px 0px 200px;
-}
-
-.abifertig-picture {
-
+    margin: 6.94vw 5px 0px 5vw;
 }
 
 .abifertig-text {
-    margin-left: 300px;
+    margin-left: 21vw;
 }
 
 .abifertig-text-h1 {
     font-weight: 800;
-    font-size: 58px;
+    font-size: 4vw;
     line-height: 64px;
 }
 
 .abifertig-text-h6 {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.3vw;
+    line-height: 2.22vw;
 }
 
 .abifertig-text-paragraph {
     color: #4C5C65;
-    width: 470px;
-    height: 233px;
+    width: 32.63vw;
+    height: 16.18vw;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.38vw;
+    line-height: 2.2vw;
 }
 .abifertig-text-button{
     width: 138px;
